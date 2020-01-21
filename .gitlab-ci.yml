@@ -1,0 +1,18 @@
+image: node:12.8.0
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  script:
+  - "yarn config set registry https://registry.npm.taobao.org"
+  - yarn install
+  - "yarn run docs:build"
+
+  artifacts:
+    paths:
+    - public
+  
+  only:
+  - master

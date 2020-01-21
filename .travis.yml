@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - "lts/*"
+branches:
+  only:
+  - master
+cache:
+  directories:
+  - node_modules
+  yarn: true
+before_install:
+- export TZ='Asia/Shanghai'
+install:
+- yarn
+script:
+  - yarn docs:build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local_dir: public
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  target-branch: gh-pages
+  verbose: true
+  on:
+    branch: master
