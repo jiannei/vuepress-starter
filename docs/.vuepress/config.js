@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/posts/",
+    base: "/vuepress-starter/",// 与仓库名称一致
     title: 'Hello VuePress',
     description: 'Just playing around',
     dest: 'public',
@@ -56,7 +56,7 @@ module.exports = {
         smoothScroll: true,
     },
     cache: true,
-    permalink: "/:year/:month/:day/:slug",
+    // permalink: "/:year/:month/:day/:slug",
     plugins: [
         [
             "@vuepress/back-to-top",
