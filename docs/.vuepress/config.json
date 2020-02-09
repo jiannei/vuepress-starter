@@ -1,100 +1,96 @@
 {
-    "base": "/vuepress-starter/", 
-    "title": "Hello VuePress", 
-    "description": "Just playing around", 
-    "dest": "public", 
+    "base": "/vuepress-starter/",
+    "title": "Hello VuePress",
+    "description": "Just playing around",
+    "dest": "public",
     "locales": {
         "/": {
-            "lang": "zh-CN", 
-            "title": "VuePress", 
+            "lang": "zh-CN",
+            "title": "VuePress",
             "description": "Vue 驱动的静态网站生成器"
         }
-    }, 
+    },
     "themeConfig": {
-        "logo": "/assets/img/logo.png", 
-        "nav": [
-            {
-                "text": "首页", 
+        "logo": "/assets/img/logo.png",
+        "nav": [{
+                "text": "首页",
                 "link": "/"
-            }, 
+            },
             {
-                "text": "Guide", 
-                "link": "/guide/", 
+                "text": "Guide",
+                "link": "/guide/",
                 "target": "_blank"
-            }, 
+            },
             {
-                "text": "Languages", 
-                "ariaLabel": "Language Menu", 
-                "items": [
-                    {
-                        "text": "Chinese", 
+                "text": "Languages",
+                "ariaLabel": "Language Menu",
+                "items": [{
+                        "text": "Chinese",
                         "link": "/language/chinese/"
-                    }, 
+                    },
                     {
-                        "text": "Japanese", 
+                        "text": "Japanese",
                         "link": "/language/japanese/"
                     }
                 ]
-            }, 
+            },
             {
-                "text": "Languages2", 
-                "items": [
-                    {
-                        "text": "Group1", 
-                        "items": [
-                            {
-                                "text": "Chinese", 
+                "text": "Languages2",
+                "items": [{
+                        "text": "Group1",
+                        "items": [{
+                                "text": "Chinese",
                                 "link": "/language/chinese/"
-                            }, 
+                            },
                             {
-                                "text": "Japanese", 
+                                "text": "Japanese",
                                 "link": "/language/japanese/"
                             }
                         ]
-                    }, 
+                    },
                     {
-                        "text": "Group2", 
-                        "items": [
-                            {
-                                "text": "Chinese", 
+                        "text": "Group2",
+                        "items": [{
+                                "text": "Chinese",
                                 "link": "/language/chinese/"
-                            }, 
+                            },
                             {
-                                "text": "Japanese", 
+                                "text": "Japanese",
                                 "link": "/language/japanese/"
                             }
                         ]
                     }
                 ]
-            }, 
+            },
             {
-                "text": "External", 
-                "link": "https://baidu.com", 
-                "target": "_self", 
+                "text": "External",
+                "link": "https://baidu.com",
+                "target": "_self",
                 "rel": ""
             }
-        ], 
-        "navbar": true, 
-        "sidebar": "auto", 
-        "displayAllHeaders": false, 
-        "activeHeaderLinks": false, 
-        "search": true, 
-        "searchMaxSuggestions": 10, 
-        "lastUpdated": "最后更新于", 
-        "nextLinks": true, 
-        "prevLinks": true, 
+        ],
+        "navbar": true,
+        "sidebar": "auto",
+        "sidebarDepth":2,
+        "displayAllHeaders": false,
+        "activeHeaderLinks": false,
+        "search": true,
+        "searchMaxSuggestions": 10,
+        "lastUpdated": "最后更新于",
+        "nextLinks": true,
+        "prevLinks": true,
         "smoothScroll": true
-    }, 
-    "cache": true, 
+    },
+    "cache": true,
     "plugins": [
         [
-            "@vuepress/back-to-top", 
+            "@vuepress/back-to-top",
             true
-        ], 
+        ],
         [
-            "@vuepress/medium-zoom", 
+            "@vuepress/medium-zoom",
             true
-        ], 
+        ],
         [
             "@vuepress/nprogress"
         ]
