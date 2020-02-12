@@ -6,4 +6,4 @@ db.json
 node_modules/
 docs/.vuepress/dist/
 .idea
-public/
+/public
