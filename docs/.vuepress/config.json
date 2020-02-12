@@ -1,15 +1,26 @@
 {
     "base": "/vuepress-starter/",
-    "title": "Hello VuePress",
+    "title": "VuePress Starter",
     "description": "Just playing around",
+    "head": [
+        ["link", {
+            "rel": "icon",
+            "href": "/favicon.ico"
+        }]
+    ],
+    "host": "0.0.0.0",
+    "port": 8080,
+    "temp": "/path/to/@vuepress/core/.temp",
     "dest": "public",
     "locales": {
         "/": {
             "lang": "zh-CN",
-            "title": "VuePress",
+            "title": "VuePress Starter",
             "description": "Vue 驱动的静态网站生成器"
         }
     },
+    "cache": true,
+    "theme": "",
     "themeConfig": {
         "logo": "/assets/img/logo.png",
         "nav": [{
@@ -63,15 +74,15 @@
                 ]
             },
             {
-                "text": "External",
-                "link": "https://baidu.com",
+                "text": "Github",
+                "link": "https://github.com/Jiannei/vuepress-starter",
                 "target": "_self",
                 "rel": ""
             }
         ],
         "navbar": true,
         "sidebar": "auto",
-        "sidebarDepth":2,
+        "sidebarDepth": 2,
         "displayAllHeaders": false,
         "activeHeaderLinks": false,
         "search": true,
@@ -81,7 +92,6 @@
         "prevLinks": true,
         "smoothScroll": true
     },
-    "cache": true,
     "plugins": [
         [
             "@vuepress/back-to-top",
@@ -94,5 +104,20 @@
         [
             "@vuepress/nprogress"
         ]
-    ]
+    ],
+    "markdown": {
+        "lineNumbers": "",
+        "anchor": {
+            "permalink": true,
+            "permalinkBefore": true,
+            "permalinkSymbol": "#"
+        },
+        "externalLinks": {
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        "toc":{ "includeLevel": [2, 3] },
+        "extendMarkdown":"",
+        "extractHeaders":["h2", "h3"]
+    }
 }
