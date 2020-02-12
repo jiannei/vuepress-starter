@@ -1,5 +1,7 @@
 # Vuepress-starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Jiannei/vuepress-starter.svg)](https://greenkeeper.io/)
+
 Vuepress 启动模板，安装即用 :tada:
 
 ## 使用
