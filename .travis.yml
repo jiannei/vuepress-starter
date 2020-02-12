@@ -3,7 +3,7 @@ node_js:
   - "lts/*"
 branches:
   only:
-  - master
+  - master  - /^greenkeeper/.*$/
 cache:
   directories:
   - node_modules
