@@ -1,10 +1,12 @@
 const {readFileSync} = require('fs')
 const { resolve } = require('path');
 
-function readConfig(){
-    const cfgPath = resolve('./config.json')
-    const config = readFileSync(cfgPath).toString()
-    return JSON.parse(config)
+function config(key,value){
+    const cfgPath = resolve(`./config/${key}.json`)
+    const cfg = readFileSync(cfgPath).toString()
+    return JSON.parse(cfg)
 }
 
-module.exports = readConfig()
+const app = config('app')
+
+module.exports = config(`themes/${app.theme}`)
