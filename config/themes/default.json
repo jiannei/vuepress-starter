@@ -3,10 +3,13 @@
     "title": "VuePress Starter",
     "description": "Just playing around",
     "head": [
-        ["link", {
-            "rel": "icon",
-            "href": "/favicon.ico"
-        }]
+        [
+            "link",
+            {
+                "rel": "icon",
+                "href": "/favicon.ico"
+            }
+        ]
     ],
     "host": "0.0.0.0",
     "port": 8080,
@@ -47,17 +50,9 @@
         "smoothScroll": true
     },
     "plugins": [
-        [
-            "@vuepress/back-to-top",
-            true
-        ],
-        [
-            "@vuepress/medium-zoom",
-            true
-        ],
-        [
-            "@vuepress/nprogress"
-        ]
+        ["@vuepress/back-to-top", true],
+        ["@vuepress/medium-zoom", true],
+        ["@vuepress/nprogress"]
     ],
     "markdown": {
         "lineNumbers": "",
@@ -70,8 +65,10 @@
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
-        "toc":{ "includeLevel": [2, 3] },
-        "extendMarkdown":"",
-        "extractHeaders":["h2", "h3"]
+        "toc": {
+            "includeLevel": [2, 3]
+        },
+        "extendMarkdown": "",
+        "extractHeaders": ["h2", "h3"]
     }
 }
