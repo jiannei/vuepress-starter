@@ -1,5 +1,6 @@
 # Vuepress-starter
 
+![Build and Deploy](https://github.com/Jiannei/vuepress-starter/workflows/Build%20and%20Deploy/badge.svg?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Jiannei/vuepress-starter.svg)](https://greenkeeper.io/)
 
 Vuepress 启动模板，安装即用 :tada:
