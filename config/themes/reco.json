@@ -1,0 +1,125 @@
+{
+    "base": "/vuepress-starter/",
+    "title": "VuePress Starter",
+    "description": "Vuepress 快速启动模板",
+    "head": [
+        ["link", {
+            "rel": "icon",
+            "href": "/favicon.ico"
+        }],
+        [
+            "meta", 
+            {
+                "name": "viewport", 
+                "content": "width=device-width,initial-scale=1,user-scalable=no"
+            }
+        ]
+    ],
+    "host": "0.0.0.0",
+    "port": 8080,
+    "temp": "/path/to/@vuepress/core/.temp",
+    "dest": "public",
+    "locales": {
+        "/": {
+            "lang": "zh-CN",
+            "title": "VuePress Starter",
+            "description": "Vue 驱动的静态网站生成器"
+        }
+    },
+    "cache": true,
+    "theme": "reco",
+    "themeConfig": {
+        "logo": "/assets/img/logo.png",
+        "type":"blog",
+        "author":"Jiannei",
+        "authorAvatar":"/assets/img/avatar.png",
+        "blogConfig":{
+            "category": {
+                "location": 2, 
+                "text": "分类"
+            }, 
+            "tag": {
+                "location": 3, 
+                "text": "标签"
+            }
+        },
+        "vssueConfig":{
+            "platform": "github", 
+            "owner": "Jiannei", 
+            "repo": "vuepress-starter", 
+            "clientId": "341cf90420a7188db470", 
+            "clientSecret": "82defb8c955feda3437146cac7238dec5bdc59c4"
+        },
+        "friendLink":[
+            {
+                "title": "vuepress-theme-reco", 
+                "desc": "A simple and beautiful vuepress Blog & Doc theme.", 
+                "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png", 
+                "link": "https://vuepress-theme-reco.recoluan.com"
+            }, 
+            {
+                "title": "午后南杂", 
+                "desc": "Enjoy when you can, and endure when you must.", 
+                "email": "recoluan@qq.com", 
+                "link": "https://www.recoluan.com"
+            }
+        ],
+        "nav": [
+            {
+                "text": "首页", 
+                "link": "/", 
+                "icon": "reco-home"
+            },
+            {
+                "text": "时间轴", 
+                "link": "/timeline/", 
+                "icon": "reco-date"
+            },
+            {
+                "text": "Github",
+                "link": "https://github.com/Jiannei/vuepress-starter",
+                "target": "_self",
+                "icon": "reco-github"
+            }
+        ],
+        "navbar": true,
+        "sidebar": "auto",
+        "sidebarDepth": 2,
+        "displayAllHeaders": false,
+        "activeHeaderLinks": false,
+        "search": true,
+        "searchMaxSuggestions": 10,
+        "lastUpdated": "最后更新于",
+        "nextLinks": true,
+        "prevLinks": true,
+        "smoothScroll": true
+    },
+    "plugins": [
+        [
+            "@vuepress/back-to-top",
+            true
+        ],
+        [
+            "@vuepress/medium-zoom",
+            true
+        ],
+        [
+            "@vuepress/nprogress"
+        ]
+    ],
+    "markdown": {
+        "lineNumbers": "",
+        "anchor": {
+            "permalink": true,
+            "permalinkBefore": true,
+            "permalinkSymbol": "#"
+        },
+        "externalLinks": {
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        "toc":{ "includeLevel": [2, 3] },
+        "extendMarkdown":"",
+        "extractHeaders":["h2", "h3"]
+    }
+}
