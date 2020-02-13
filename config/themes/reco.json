@@ -52,7 +52,8 @@
             "placeholder": "填写邮箱可以收到回复提醒哦~",
             "notify": true,
             "verify":true,
-            "recordIP": true
+            "recordIP": true,
+            "avatar":"mp"
         },
         "friendLink": [{
                 "title": "vuepress-theme-reco",
