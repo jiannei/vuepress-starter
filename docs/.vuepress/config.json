@@ -28,52 +28,6 @@
                 "link": "/"
             },
             {
-                "text": "Guide",
-                "link": "/guide/",
-                "target": "_blank"
-            },
-            {
-                "text": "Languages",
-                "ariaLabel": "Language Menu",
-                "items": [{
-                        "text": "Chinese",
-                        "link": "/language/chinese/"
-                    },
-                    {
-                        "text": "Japanese",
-                        "link": "/language/japanese/"
-                    }
-                ]
-            },
-            {
-                "text": "Languages2",
-                "items": [{
-                        "text": "Group1",
-                        "items": [{
-                                "text": "Chinese",
-                                "link": "/language/chinese/"
-                            },
-                            {
-                                "text": "Japanese",
-                                "link": "/language/japanese/"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Group2",
-                        "items": [{
-                                "text": "Chinese",
-                                "link": "/language/chinese/"
-                            },
-                            {
-                                "text": "Japanese",
-                                "link": "/language/japanese/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "text": "Github",
                 "link": "https://github.com/Jiannei/vuepress-starter",
                 "target": "_self",
