@@ -1,7 +1,7 @@
-const {readFileSync} = require('fs')
+const {readFileSync} = require('fs');
 const { resolve } = require('path');
 
-function config(key,value){
+function config(key){
     const cfgPath = resolve(`./config/${key}.json`)
     const cfg = readFileSync(cfgPath).toString()
     return JSON.parse(cfg)
