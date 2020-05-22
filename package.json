@@ -10,5 +10,8 @@
     "@vuepress/plugin-nprogress": "^1.2.0",
     "vuepress": "^1.2.0",
     "vuepress-theme-reco": "^1.2.2"
+  },
+  "dependencies": {
+    "vuepress-theme-vdoing": "^1.0.0"
   }
 }

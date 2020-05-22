@@ -1,0 +1,102 @@
+{
+  "base": "/vuepress-starter/",
+  "title": "VuePress Starter",
+  "description": "Just playing around",
+  "head": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/favicon.ico"
+      }
+    ]
+  ],
+  "host": "0.0.0.0",
+  "port": 8080,
+  "temp": "/path/to/@vuepress/core/.temp",
+  "dest": "public",
+  "locales": {
+    "/": {
+      "lang": "zh-CN",
+      "title": "VuePress Starter",
+      "description": "Vue 驱动的静态网站生成器"
+    }
+  },
+  "cache": true,
+  "theme": "vdoing",
+  "themeConfig": {
+    "logo": "/assets/img/logo.png",
+    "nav": [
+      {
+        "text": "首页",
+        "link": "/"
+      },
+      {
+        "text": "Github",
+        "link": "https://github.com/Jiannei/vuepress-starter",
+        "target": "_self",
+        "rel": ""
+      }
+    ],
+    "navbar": true,
+    "sidebar": "structuring",
+    "author": {
+      "name": "Jiannei",
+      "url": "https://github.com/Jiannei"
+    },
+    "blogger": {
+      "avatar": "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg",
+      "name": "Evan Xu",
+      "slogan": "前端界的小学生"
+    },
+    "social": {
+      "icons": [
+        {
+          "iconClass": "icon-youjian",
+          "title": "发邮件",
+          "link": "mailto:894072666@qq.com"
+        },
+        {
+          "iconClass": "icon-github",
+          "title": "GitHub",
+          "link": "https://github.com/xugaoyi"
+        }
+      ]
+    },
+    "footer": {
+      "createYear": 2019,
+      "copyrightInfo": "Evan Xu | MIT License"
+    },
+    "sidebarDepth": 2,
+    "displayAllHeaders": false,
+    "activeHeaderLinks": false,
+    "search": true,
+    "searchMaxSuggestions": 10,
+    "lastUpdated": "最后更新于",
+    "nextLinks": true,
+    "prevLinks": true,
+    "smoothScroll": true
+  },
+  "plugins": [
+    ["@vuepress/back-to-top", true],
+    ["@vuepress/medium-zoom", true],
+    ["@vuepress/nprogress"]
+  ],
+  "markdown": {
+    "lineNumbers": "",
+    "anchor": {
+      "permalink": true,
+      "permalinkBefore": true,
+      "permalinkSymbol": "#"
+    },
+    "externalLinks": {
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "toc": {
+      "includeLevel": [2, 3]
+    },
+    "extendMarkdown": "",
+    "extractHeaders": ["h2", "h3"]
+  }
+}

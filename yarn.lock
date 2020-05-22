@@ -804,6 +804,25 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.6", "@better-scroll/core@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.npm.taobao.org/@better-scroll/core/download/@better-scroll/core-2.0.0-beta.8.tgz#c067d64f28922d050a616f7d84f8d2c907e391cf"
+  integrity sha1-wGfWTyiSLQUKYW99hPjSyQfjkc8=
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.0-beta.8"
+
+"@better-scroll/shared-utils@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.npm.taobao.org/@better-scroll/shared-utils/download/@better-scroll/shared-utils-2.0.0-beta.8.tgz#0f884af36ea251dddccaf2d7b1a550a5273bc2a2"
+  integrity sha1-D4hK826iUd3cyvLXsaVQpSc7wqI=
+
+"@better-scroll/slide@^2.0.0-beta.6":
+  version "2.0.0-beta.8"
+  resolved "https://registry.npm.taobao.org/@better-scroll/slide/download/@better-scroll/slide-2.0.0-beta.8.tgz#7b6b7991466261e73f4d4c7a8d2258c330ecec94"
+  integrity sha1-e2t5kUZiYec/TUx6jSJYwzDs7JQ=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.8"
+
 "@leancloud/adapter-types@^1.0.1":
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/@leancloud/adapter-types/download/@leancloud/adapter-types-1.0.2.tgz#1cac623f71b73c1224e6415633a3deb54aaa102e"
@@ -1179,7 +1198,7 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.5.0":
+"@vuepress/plugin-active-header-links@1.5.0", "@vuepress/plugin-active-header-links@^1.2.0":
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-active-header-links/download/@vuepress/plugin-active-header-links-1.5.0.tgz#a7b9ce361e97119928f5209aeda69b699205bd31"
   integrity sha1-p7nONh6XEZko9SCa7aabaZIFvTE=
@@ -1242,7 +1261,7 @@
   dependencies:
     "@vuepress/shared-utils" "1.5.0"
 
-"@vuepress/plugin-search@1.5.0":
+"@vuepress/plugin-search@1.5.0", "@vuepress/plugin-search@^1.2.0":
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-search/download/@vuepress/plugin-search-1.5.0.tgz#d47a29402945649b69aa6a9db15315075c1651ea"
   integrity sha1-1HopQClFZJtpqmqdsVMVB1wWUeo=
@@ -2204,6 +2223,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/chalk/download/chalk-3.0.0.tgz?cache=0&sync_timestamp=1585815759944&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchalk%2Fdownload%2Fchalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/chalk/download/chalk-4.0.0.tgz?cache=0&sync_timestamp=1585815759944&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchalk%2Fdownload%2Fchalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha1-bpgIHtLRf6q2FetSrGbsH+YgnnI=
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -3927,6 +3954,11 @@ good-listener@^1.2.2:
   dependencies:
     delegate "^3.1.2"
 
+good-storage@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/good-storage/download/good-storage-1.1.1.tgz#081501c01607d5fee2a214f94e8f5f9cb994789f"
+  integrity sha1-CBUBwBYH1f7iohT5To9fnLmUeJ8=
+
 got@^9.6.0:
   version "9.6.0"
   resolved "https://registry.npm.taobao.org/got/download/got-9.6.0.tgz?cache=0&sync_timestamp=1589646579297&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgot%2Fdownload%2Fgot-9.6.0.tgz#edf45e7d67f99545705de1f7bbeeeb121765ed85"
@@ -4781,6 +4813,13 @@ json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.npm.taobao.org/json-stringify-safe/download/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+
+json2yaml@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/json2yaml/download/json2yaml-1.1.0.tgz#5414d907f9816586b80c513ec2e3aeb2ab819a6c"
+  integrity sha1-VBTZB/mBZYa4DFE+wuOusquBmmw=
+  dependencies:
+    remedial "1.x"
 
 json3@^3.3.2:
   version "3.3.3"
@@ -6711,6 +6750,11 @@ relateurl@0.2.x:
   resolved "https://registry.npm.taobao.org/relateurl/download/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
+remedial@1.x:
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/remedial/download/remedial-1.0.8.tgz#a5e4fd52a0e4956adbaf62da63a5a46a78c578a0"
+  integrity sha1-peT9UqDklWrbr2LaY6WkanjFeKA=
+
 remove-markdown@0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/remove-markdown/download/remove-markdown-0.3.0.tgz#5e4b667493a93579728f3d52ecc1db9ca505dc98"
@@ -8230,6 +8274,26 @@ vuepress-theme-reco@^1.2.2:
     md5 "2.2.1"
     valine "1.4.4"
     vue-click-outside "1.1.0"
+
+vuepress-theme-vdoing@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/vuepress-theme-vdoing/download/vuepress-theme-vdoing-1.0.0.tgz#649100f16d769cbf47276d483ce8713cb2698024"
+  integrity sha1-ZJEA8W12nL9HJ21IPOhxPLJpgCQ=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+    "@better-scroll/slide" "^2.0.0-beta.6"
+    "@vuepress/plugin-active-header-links" "^1.2.0"
+    "@vuepress/plugin-nprogress" "^1.2.0"
+    "@vuepress/plugin-search" "^1.2.0"
+    chalk "^4.0.0"
+    docsearch.js "^2.5.2"
+    good-storage "^1.1.1"
+    json2yaml "^1.1.0"
+    lodash "^4.17.15"
+    stylus "^0.54.5"
+    stylus-loader "^3.0.2"
+    vuepress-plugin-container "^2.0.2"
+    vuepress-plugin-smooth-scroll "^0.0.3"
 
 vuepress@^1.2.0:
   version "1.5.0"
