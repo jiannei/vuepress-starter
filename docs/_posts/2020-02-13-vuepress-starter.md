@@ -18,5 +18,5 @@ This is a warning！
 :::
 
 ::: danger
-This is a dangerous warning
+This is a dangerous warning!
 :::
