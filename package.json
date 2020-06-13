@@ -9,9 +9,8 @@
     "@vuepress/plugin-medium-zoom": "^1.2.0",
     "@vuepress/plugin-nprogress": "^1.2.0",
     "vuepress": "^1.2.0",
-    "vuepress-theme-reco": "^1.2.2"
+    "vuepress-theme-reco": "^1.2.2",
+    "vuepress-theme-vdoing": "^1.2.3"
   },
-  "dependencies": {
-    "vuepress-theme-vdoing": "^1.0.0"
-  }
+  "dependencies": {}
 }
