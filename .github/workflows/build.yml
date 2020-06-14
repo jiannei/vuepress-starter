@@ -28,4 +28,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_BRANCH: gh-pages
         BUILD_DIR: public/
-        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_SCRIPT: yarn config set registry https://registry.npm.taobao.org/ && yarn && yarn docs:build

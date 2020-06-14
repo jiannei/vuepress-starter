@@ -8285,9 +8285,9 @@ vuepress-theme-reco@^1.2.2:
     vue-click-outside "1.1.0"
 
 vuepress-theme-vdoing@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.npm.taobao.org/vuepress-theme-vdoing/download/vuepress-theme-vdoing-1.2.3.tgz#f77fe5e4a4cbc5deea87d3109c5074736fbca5f7"
-  integrity sha1-93/l5KTLxd7qh9MQnFB0c2+8pfc=
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/vuepress-theme-vdoing/download/vuepress-theme-vdoing-1.2.4.tgz#7506b5e9e07a9f426ef0bee96d65a88778a16e00"
+  integrity sha1-dQa16eB6n0Ju8L7pbWWoh3ihbgA=
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
