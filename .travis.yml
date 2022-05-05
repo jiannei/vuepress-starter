@@ -3,7 +3,8 @@ node_js:
   - "lts/*"
 branches:
   only:
-  - master  - /^greenkeeper/.*$/
+  - main
+  - /^greenkeeper/.*$/
 cache:
   directories:
   - node_modules
@@ -23,4 +24,4 @@ deploy:
   target-branch: gh-pages
   verbose: true
   on:
-    branch: master
+    branch: main
