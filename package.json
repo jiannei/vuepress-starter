@@ -5,12 +5,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.2.0",
-    "@vuepress/plugin-medium-zoom": "^1.2.0",
-    "@vuepress/plugin-nprogress": "^1.2.0",
-    "vuepress": "^1.2.0",
-    "vuepress-theme-reco": "^1.2.2",
-    "vuepress-theme-vdoing": "^1.2.3"
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.11",
+    "vuepress-theme-vdoing": "^1.11.3"
   },
   "dependencies": {}
 }
